@@ -1,0 +1,125 @@
+body {
+    background-color: #f2f2f2;
+}
+
+.scoreboard-container {
+    width: 60%;
+    margin: 50px auto;
+    font-family: sans-serif;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    background-color: #11b9b9;
+    color: #fff;
+    padding: 15px;
+}
+
+.total {
+    width: 30%;
+}
+
+h2 {
+    text-align: center;
+    width: 40%;
+}
+
+#list-players {
+    padding: 15px;
+    background-color: #fff;
+}
+
+.player {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #c5cece;
+}
+
+.player-left {
+    display: flex;
+    width: 30%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    width: 40%;
+}
+
+.name {
+    width: 60%;
+}
+
+.point {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 15%;
+}
+
+.delete-btn {
+    border: none;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.decrease-btn, .increase-btn {
+    border: none;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+}
+
+.decrease-btn:hover, .increase-btn:hover {
+    background-color: #11b9b9;
+    color: #fff;
+}
+
+.input-player {
+    padding: 20px;
+    background-color: #11b9b9;
+    display: flex;
+    justify-content: space-between;
+}
+
+#player {
+    width: 80%;
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    background-color: #109d9e;
+    color: #fff;
+}
+
+#player::placeholder {
+    color: #fff;
+}
+
+.add-btn {
+    padding: 8px 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+}
+
+.add-btn:hover {
+    background-color: black;
+    color: #fff;
+}
+
+.fa-chess-queen {
+    opacity: 0.1;
+}
+
+.crown {
+    opacity: 1;
+}
+
+.no-player {
+    text-align: center;
+}
